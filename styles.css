@@ -23,6 +23,9 @@ footer {
   font-weight: 500;
   margin-top: 30px;
   margin-bottom: 15px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
 }
 
 h1 {
@@ -64,6 +67,7 @@ p {
   font-weight: 700;
   line-height: normal;
   max-width: 170px;
+  text-align: left;
 }
 
 .job {
@@ -114,6 +118,7 @@ p {
 
 .mid-content {
   margin-top: 25px;
+  text-align: center;
 }
 
 .material-icons.md-36 {
