@@ -1,3 +1,59 @@
 body {
   background-color: #181719;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-size: 14px;
+  font-family: Crimson Pro;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+footer {
+  color: #A9A9A9;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: Lora;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  max-width: 269px;
+}
+
+.text-content {
+  color: #fff;
+  font-style: normal;
+  line-height: normal;
+}
+
+.logo {
+  padding: 10px;
+  border: solid 1px #fff;
+}
+
+.read-more {
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  font-weight: 700;
+}
