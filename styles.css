@@ -42,6 +42,10 @@ p {
   margin-top: 25px;
 }
 
+ul {
+  display: none;
+}
+
 .interior-photo {
   width: 370px;
 }
@@ -129,11 +133,71 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    text-align: -webkit-center;
+  }
+
+  header {
+    max-width: 1300px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: left;
+    max-width: 350px;
+  }
+
+  ul {
+    display: flex;
+    gap: 90px;
+    list-style-type: none;
+    font-family: Montserrat;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  .read-more {
+    cursor: pointer;
+  }
+
+  .select-view {
+    border-bottom: 2px solid #fff;
+    padding: 0px 0px 10px 0px;
+    font-weight: 700;
+  }
+
+  .logo {
+    height: 18px;
+  }
+
   .wrap {
     text-align: -webkit-center;
   }
   
   .content {
-    max-width: 1200px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .interior-photo {
+    width: 820px;
+  }
+
+  .card {
+    top: 615px;
+    right: 340px;
+    min-width: 380px;
+  }
+
+  .material-icons.md-36 {
+    display: none;
   }
 }
